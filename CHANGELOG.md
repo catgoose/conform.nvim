@@ -1,5 +1,28 @@
 # Changelog
 
+## [9.0.0](https://github.com/stevearc/conform.nvim/compare/v8.4.0...v9.0.0) (2025-01-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove deprecated syntax and functions
+
+### cleanup
+
+* remove deprecated syntax and functions ([f8d743c](https://github.com/stevearc/conform.nvim/commit/f8d743ce333bedc47821de2cd4d23c43856ecbe5))
+
+
+### Features
+
+* add hurlfmt (hurl files) ([#632](https://github.com/stevearc/conform.nvim/issues/632)) ([ee323a0](https://github.com/stevearc/conform.nvim/commit/ee323a06ed22de68b45caafae4406e20c1be3dc0))
+* add support for pyproject-fmt ([#629](https://github.com/stevearc/conform.nvim/issues/629)) ([a7c7e8f](https://github.com/stevearc/conform.nvim/commit/a7c7e8fc0fb3bebabd8e597f6906a83f1515af34))
+
+
+### Bug Fixes
+
+* give priority to most specific piece of compound filetype ([#630](https://github.com/stevearc/conform.nvim/issues/630)) ([7831107](https://github.com/stevearc/conform.nvim/commit/783110741669a52b85cfac41f499c8162c4423fa))
+* incorrect filetype calculation ([b788593](https://github.com/stevearc/conform.nvim/commit/b788593a9fa658b47bc30a04d8f0f7dc98144b14))
+
 ## [8.4.0](https://github.com/stevearc/conform.nvim/compare/v8.3.0...v8.4.0) (2025-01-22)
 
 
